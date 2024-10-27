@@ -535,7 +535,7 @@ CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED:INTERNAL=TRUE
 //Result of try_run()
 CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE:INTERNAL=0
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Users/Aleks/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake][c ][v1.85.0(1.85)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Users/Aleks/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake][c ][v1.86.0(1.85)]
 //Details about finding Brotli
 FIND_PACKAGE_MESSAGE_DETAILS_Brotli:INTERNAL=[C:/Users/Aleks/vcpkg/installed/x64-windows/debug/lib/brotlidec.lib][C:/Users/Aleks/vcpkg/installed/x64-windows/debug/lib/brotlienc.lib][C:/Users/Aleks/vcpkg/installed/x64-windows/debug/lib/brotlicommon.lib][C:/Users/Aleks/vcpkg/installed/x64-windows/include][v()]
 //Details about finding Jsoncpp

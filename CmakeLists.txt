@@ -15,11 +15,13 @@ if (Boost_FOUND AND Drogon_FOUND)
         ${Drogon_INCLUDE_DIRS}
     )
 
+
+
     add_executable(${PROJECT_NAME}
         testServer_user.cpp
         testServer_user.h
         UserController.h
-    )
+        main.cpp)
 
     target_link_libraries(${PROJECT_NAME}
         PRIVATE ${Boost_LIBRARIES} drogon

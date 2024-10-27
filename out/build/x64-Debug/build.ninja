@@ -67,7 +67,25 @@ build CMakeFiles\TestServer.dir\testServer_user.cpp.obj: CXX_COMPILER__TestServe
   TARGET_PDB = TestServer.pdb
   dyndep = CMakeFiles/TestServer.dir/CXX.dd
 
-build CMakeFiles\TestServer.dir\CXX.dd | C$:\Users\Aleks\Desktop\testServer\out\build\x64-Debug\CMakeFiles\TestServer.dir\CXXModules.json CMakeFiles\TestServer.dir\testServer_user.cpp.obj.modmap: CXX_DYNDEP__TestServer_Debug CMakeFiles\TestServer.dir\testServer_user.cpp.obj.ddi
+build CMakeFiles\TestServer.dir\main.cpp.obj.ddi: CXX_SCAN__TestServer_Debug C$:\Users\Aleks\Desktop\testServer\main.cpp || cmake_object_order_depends_target_TestServer
+  DEP_FILE = CMakeFiles\TestServer.dir\main.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\TestServer.dir\main.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\Aleks\Desktop\testServer -IC:\Users\Aleks\vcpkg\installed\x64-windows\include
+  OBJ_FILE = CMakeFiles\TestServer.dir\main.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\TestServer.dir\main.cpp.obj.ddi.i
+
+build CMakeFiles\TestServer.dir\main.cpp.obj: CXX_COMPILER__TestServer_scanned_Debug C$:\Users\Aleks\Desktop\testServer\main.cpp || cmake_object_order_depends_target_TestServer CMakeFiles\TestServer.dir\CXX.dd CMakeFiles\TestServer.dir\main.cpp.obj.modmap
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\TestServer.dir\main.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\Aleks\Desktop\testServer -IC:\Users\Aleks\vcpkg\installed\x64-windows\include
+  OBJECT_DIR = CMakeFiles\TestServer.dir
+  OBJECT_FILE_DIR = CMakeFiles\TestServer.dir
+  TARGET_COMPILE_PDB = CMakeFiles\TestServer.dir\
+  TARGET_PDB = TestServer.pdb
+  dyndep = CMakeFiles/TestServer.dir/CXX.dd
+
+build CMakeFiles\TestServer.dir\CXX.dd | C$:\Users\Aleks\Desktop\testServer\out\build\x64-Debug\CMakeFiles\TestServer.dir\CXXModules.json CMakeFiles\TestServer.dir\testServer_user.cpp.obj.modmap CMakeFiles\TestServer.dir\main.cpp.obj.modmap: CXX_DYNDEP__TestServer_Debug CMakeFiles\TestServer.dir\testServer_user.cpp.obj.ddi CMakeFiles\TestServer.dir\main.cpp.obj.ddi
 
 
 # =============================================================================
@@ -77,7 +95,7 @@ build CMakeFiles\TestServer.dir\CXX.dd | C$:\Users\Aleks\Desktop\testServer\out\
 #############################################
 # Link the executable TestServer.exe
 
-build TestServer.exe: CXX_EXECUTABLE_LINKER__TestServer_Debug CMakeFiles\TestServer.dir\testServer_user.cpp.obj
+build TestServer.exe: CXX_EXECUTABLE_LINKER__TestServer_Debug CMakeFiles\TestServer.dir\testServer_user.cpp.obj CMakeFiles\TestServer.dir\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = drogon.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

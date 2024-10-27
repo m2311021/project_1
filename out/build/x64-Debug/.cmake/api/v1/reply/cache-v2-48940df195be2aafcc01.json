@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/Aleks/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake][c ][v1.85.0(1.85)]"
+			"value" : "[C:/Users/Aleks/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake][c ][v1.86.0(1.85)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Brotli",
